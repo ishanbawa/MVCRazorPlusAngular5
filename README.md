@@ -35,7 +35,7 @@ If You Would Use Visual Studio Project Template Option Then Use Must Use These I
 
 Extract File in Zip or Import Project Template in VS
 
-Then At Web Project Root Directory , Open Cmd and run command - "npm install".
+Then At Web Project Root Directory , Open Cmd and run command - "npm install". This Requires NodeJs Installed.
 
 Restore Nuget Packages and It Should Run
 
