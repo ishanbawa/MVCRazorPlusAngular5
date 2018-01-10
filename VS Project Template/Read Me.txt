@@ -1,0 +1,9 @@
+Extract File in Zip or Import Project Template in VS
+
+Then At Web Project Root Directory , Open Cmd and run command - "npm install".
+
+Restore Nuget Packages and It Should Run
+
+If You Find Issues With Build Process - Delete The .vs hidden folder at the location where solution file lives.
+
+Also The Might Be Just One Error After All This - About A Require Declaration, You Can Just Uncomment That.
