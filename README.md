@@ -1,5 +1,5 @@
 # MVCRazorPlusAngular5
-MVC Razor In Working Condition With Angular 5
+MVC Razor In Working Condition With Angular 5 - Visual Studio 2017 Used
 
 Razor is Working As You Would Normally Use it. Like Index Or Home Page in /Home/Index Can Have All The Razor Features Plus Within The Same Place You Can Write Angular Code As Well Like {{1 + 1}} Or {{Title}} Or Even ngModel Etc.
 
@@ -23,7 +23,8 @@ How It Works.
 4. Now I Made An Interface Which Has Some Properties That Every Page Must Have Including A Function To Fetch The Html From "Already Loaded Html" And Even Parsing "Model Objects In Components" From Json Values That Might Be Coming From C# Side. So When NgInit Is Called Our Inteface Function Will Be Called Which Will Be Mostly Same For All Compoents. By This Time Html Will Be Loaded Into Directive And Model Objects Will Also Be Ready.
 5. Next Step Will Be The Directive In First Step Making The "Ugly Ugly Hack" To Make A Runtime Module Importing A Shared Module "Where You Are Supposed To Declare All Your Services, Directive And Pipes Etc For This To Remain A Smooth Experience". That Runtime Module Will Have "Then And There Generated Dynamic Component With Dynamic Html" Compliled Next. Now After It Has Been Compiled. The Ugly Work Starts. I Copy All Features of Our Actual Component To This New Dynamic Component Object Including All Its Function. I Know Its Ugly But It Gives Me What I Needed For A Small Project I Had.
 6. It Seemed To Be Working Just Fine , Objects Were Being Interpolated, Changes Were Reflecting.
-7. It Serves A Simple Solution :) 
+7. Use "ng build --watch" for making changes in your ts files reflect on page reload.
+8. It Serves A Simple Solution :) 
 
 
 
@@ -75,7 +76,7 @@ MyModel Is The Primary Object That Is Set For Each Controller By ConfigurePageDa
 
 --------------------------------------------
 
-Every Compoents Actual Html File Will Only Hold The Very Sane Line For All.
+Every Components Actual Html File Will Only Hold The Very Same Line For All. You Can Change Id of the Element To Fetch Html From.
 
 <html-outlet [html]="MyHtml" [Instance]="this"></html-outlet>
 
