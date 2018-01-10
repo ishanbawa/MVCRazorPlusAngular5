@@ -28,7 +28,7 @@ How It Works.
 
 
 
-Intallation Or Usage : 
+Installation Or Usage : 
 
 ------------------------------------------------------------------------------------
 
