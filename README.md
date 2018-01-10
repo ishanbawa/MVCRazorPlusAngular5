@@ -41,13 +41,13 @@ Restore Nuget Packages and It Should Run
 
 If You Find Issues With Build Process - Delete The .vs hidden folder at the location where solution file lives.
 
-Also The Might Be Just One Error After All This - About A Require Declaration, You Can Just Uncomment That.
+Also There Might Be Just One Error After All This - About A Require Declaration, You Can Just Uncomment That.
 
 ------------------------------------------------------------------------------------------
 
 If You Simply Clone This Repo Then The Steps Are:
 
-At Web Project Root Directory , Open Cmd and run command - "npm install".
+At Web Project Root Directory , Open Cmd and run command - "npm install". This Requires NodeJs Installed.
 
 Restore Nuget Packages and It Should Run
 
