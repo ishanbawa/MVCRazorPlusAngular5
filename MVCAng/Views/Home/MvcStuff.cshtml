@@ -1,0 +1,17 @@
+@{
+    ViewBag.Title = "MVC Stuff";
+    //Layout = null;
+}
+
+@section AngularComponent
+{
+  <sharing-content></sharing-content>
+}
+
+<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.Message - Cool @(1 + 45)</h3>
+
+<div (click)="open(Title)">{{Title}}</div>
+<input (dblclick)="open(Title)" [(ngModel)]="Title" />
+
+
